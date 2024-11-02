@@ -22,11 +22,21 @@ import Footer from './components/Footer/Footer';
 
 import logo from './images/logo.png';
 import logoAlternative from './images/logo-alternative.png';
-import preview from './images/preview1.png';
+import preview from './images/preview1.jpeg';
 import preview2 from './images/preview2.png';
 import detailsBg1 from './images/detailsbg1.png';
 import detailsBg2 from './images/detailsbg2.png';
 import detailsBg3 from './images/detailsbg3.png';
+import images from './images';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
 
 function App() {
   return (
@@ -74,11 +84,33 @@ function App() {
           </Details>
         : <></>}
 
+              <div className='swiper-section'>
+
+              <Swiper
+      slidesPerView={3}
+      autoplay={{ delay: 3000 }}
+      autoHeight={true}
+      spaceBetween={10}
+      pagination={{
+        clickable: true,
+      }}
+      navigation
+      modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
+      className="mySwiper"
+    >
+      {images.map((image, index) => (
+        <SwiperSlide key={index}>
+          <img src={image} alt={`Imagem ${index + 1}`} />
+        </SwiperSlide>
+      ))}
+    </Swiper>
+              </div>
+
         {CONFIG.midAnchor ?
           <SideBySide id={CONFIG.midAnchor}>
             <div className="video-section">
             <iframe
-        src="https://player.vimeo.com/video/961661007?badge=0&autopause=0&player_id=0&app_id=58479"
+        src="https://player.vimeo.com/video/1025712620?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         frameBorder="0"
         allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}

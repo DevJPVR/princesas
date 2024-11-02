@@ -16,5 +16,6 @@
 @media only screen and (max-width: 800px) {
     #side-text{
         flex-basis: 100%;
+        text-align: center;
     }
 }

@@ -10,30 +10,30 @@ export const items = [
 
 /*INTRODUCTION*/
 export const introAnchor = "intro"; //Should be the same as logoHref (no #)
-export const introTitle = "Empreender Cascais";
-export const introDescription = "Junte-se a nós para um dia de palestras, workshops e networking com líderes e inovadores do mercado.";
+export const introTitle = "Chá das princesas 3ª Edição";
+export const introDescription = "Uma tarde de realeza e propósito te espera! Prepare-se para vivenciar sua verdadeira essência.";
 export const introButtonType = "empreender"; //Recognized button types include chrome, github, appstore, googleplay, amazon
 export const introButtonText = ""; //Leave empty if you have a recognized button type
-export const introButtonLink = "https://bit.ly/empreendercascais";
+export const introButtonLink = "https://docs.google.com/forms/d/e/1FAIpQLSc2xEHpBRsGwwkyQxUATvn4OjDjKYCQhstTfbu9oizUXypACA/viewform?fbclid=PAZXh0bgNhZW0CMTEAAab8R1pLW_XkHcf9I9Uee6LZjWYCsgdNkclW1OuHcAE_WNqiCkGIaDFqTO4_aem_7tvnwN3NAKi5LL75i3LhWA";
 //IMAGE NAME: preview1.png
 
 /*FEATURES*/
 export const featuresAnchor = "features";
-export const featuresTitle = "O Empreender Cascais oferecerá uma programação diversificada, incluindo:";
+export const featuresTitle = "O chá das princesas oferecerá uma programação de excelência, incluindo:";
 export const featuresDetails = [
-  {"Palestras inspiradoras":"Com Líderes que compartilharão suas experiências e insights."},
-  {"Workshops Práticos":"Sessões interativas para desenvolver habilidades essenciais."},
-  {"Oportunidades de Networking":"Conecte-se com outros empreendedores e profissionais."},
+  {"Comunhão":"Momento de mesa, de conexão com Deus e com outras mulheres que viverá sua real identidade."},
+  {"Workshops Práticos":"Palestrantes especiais e profissionais convidadas, coffe break, talk show com mulheres que inspiram."},
+  {"Ambiente transformador":"Sala de oração e uma decoração impecável. Você merece viver esse momento de realeza!"},
 ];
 //Background image name: detailsbg1.png
 
 /*MIDDLE TEXT*/
 export const midAnchor = "preview";
 export const midTitle = "Inscreva-se!";
-export const midDescription = "Estamos ansiosos para recebê-lo no Empreender Cascais, e juntos construirmos um futuro cheio de inovações e oportunidades. Faça já a sua inscrição através do link abaixo";
+export const midDescription = "Últimas vagas para o Chá das Princesas! Inscrições limitadas para quem deseja viver essa experiência única de realeza e propósito. Garanta já a sua!";
 export const midButtonType = "empreender";
 export const midButtonText = "";
-export const midButtonLink = "https://bit.ly/empreendercascais";
+export const midButtonLink = "https://docs.google.com/forms/d/e/1FAIpQLSc2xEHpBRsGwwkyQxUATvn4OjDjKYCQhstTfbu9oizUXypACA/viewform?fbclid=PAZXh0bgNhZW0CMTEAAab8R1pLW_XkHcf9I9Uee6LZjWYCsgdNkclW1OuHcAE_WNqiCkGIaDFqTO4_aem_7tvnwN3NAKi5LL75i3LhWA";
 //Image preview2.png
 
 /*BottomInfo*/
@@ -61,12 +61,12 @@ export const botDetails = [
 export const faqAnchor = "faq";
 export const faqTitle = "Dúvidas Frequentes";
 export const faqDetails = [
-  {"O Que é o empreender cascais?":"É um evento dedicado a inspirar, capacitar e conectar empreendedores e profissionais de todas as áreas. "},
-  {"Onde acontece o Empreender Cascais?":"Acontece na IBR Cascais, no endereço: R. São Francisco 618 1Adroana, 2645-019 Alcabideche"},
-  {"Qual o objetivo do empreender cascais?":"Capacitar e conectar empreendedores e profissionais de todas"},
-  {"Quem é o idealizador do Empreender Cascais?":"Pastor Marcos nunes"},
-  {"Quais são as oportunidades que o Empreender Cascais oferece?":"Palestras inspiradoras com  Líderes que compartilharão suas experiências e insights, Workshops Práticos: Sessões interativas para desenvolver habilidades essenciais, Oportunidades de Networking: Conecte-se com outros empreendedores e profissionais."},
-  {"Como posso participar do empreender cascais?":"Basta clicar no botão Reserve o seu lugar, preencher o formulario e efetuar a taxa de inscrição de €10.00 Euros"},
+  {"O Que é o Chá das Princesas?":""},
+  {"Onde acontece o Chá das Princesas?":""},
+  {"Qual o objetivo do Chá das Princesas?":""},
+  {"Quem é o idealizador do Chá das Princesas?":""},
+  {"Quais são as oportunidades que o Chá das Princesas oferece?":""},
+  {"Como posso participar do Chá das Princesas?":"Basta clicar no botão Reserve o seu lugar, preencher o formulario e efetuar a taxa de inscrição de €30.00 Euros"},
 ];
 //Background image name: detailsbg3.png
 

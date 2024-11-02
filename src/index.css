@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #002726;
+  background-color: #af646f;
   color: white;
 }
 
@@ -25,5 +25,35 @@ code {
 @media only screen and (max-width: 920px) {
   body{
     font-size: 12px;
+  }
+}
+
+.swiper-section {
+  max-width: 900px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-height: 600px;
+}
+
+.swiper-slide {
+  width: 50% !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #af646f !important;
+}
+
+@media (max-width: 500px) {
+  .swiper-slide img {
+    width: 100%;
+    max-height: 250px !important;
   }
 }
