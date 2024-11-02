@@ -61,11 +61,11 @@ export const botDetails = [
 export const faqAnchor = "faq";
 export const faqTitle = "Dúvidas Frequentes";
 export const faqDetails = [
-  {"O Que é o Chá das Princesas?":""},
-  {"Onde acontece o Chá das Princesas?":""},
-  {"Qual o objetivo do Chá das Princesas?":""},
-  {"Quem é o idealizador do Chá das Princesas?":""},
-  {"Quais são as oportunidades que o Chá das Princesas oferece?":""},
+  {"Como surgiu o Chá das Princesas?":"O Chá das Princesas nasceu do desejo de oferecer um espaço onde mulheres pudessem se reunir para descobrir e celebrar sua identidade real em Deus, em um ambiente acolhedor e inspirador."},
+  {"Onde acontece o Chá das Princesas?":"O Chá das Princesas acontece na IBR Cascais, R. São Francisco 618 1Adroana, 2645-019 Alcabideche"},
+  {"Qual o objetivo do Chá das Princesas?":"O objetivo do Chá das Princesas é fortalecer a autoestima, revelar a verdadeira identidade de cada mulher e inspirar-las a viver como filhas do Rei, valorizando sua essência e propósito."},
+  {"Quem é a idealizadora do Chá das Princesas?":"A idealizadora do Chá das Princesas é Giulianna Nunes, pastora há 11 anos da IBRCASCAIS, com anos de dedicação ao cuidado e fortalecimento de mulheres. Com seu trabalho como consultora de imagem e sua experiência em ministrar sobre identidade e propósito, ela criou o Chá das Princesas para proporcionar algo único e também a experiência de sentar à mesa e se conectar com mulheres que inspiram. Sua paixão é ajudar cada mulher a entender seu valor e viver com a dignidade e realeza que Deus planejou para cada uma viver."},
+  {"Quais são as oportunidades que o Chá das Princesas oferece?":"O Chá das Princesas é uma oportunidade preciosa para cada mulher se sentir especial e amada. Aqui você encontra momentos de reflexão sobre quem você realmente é, um espaço para fortalecer sua fé e renovar sua autoestima. Além disso, é uma chance de criar laços com outras mulheres que também estão nessa jornada de descobrir o valor de ser filha do Rei. Será uma experiência inesquecível"},
   {"Como posso participar do Chá das Princesas?":"Basta clicar no botão Reserve o seu lugar, preencher o formulario e efetuar a taxa de inscrição de €30.00 Euros"},
 ];
 //Background image name: detailsbg3.png
